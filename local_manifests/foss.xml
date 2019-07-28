@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- stolen and modified from 
+     https://github.com/phhusson/treble_manifest/
+     blob/92171afe8563f8eb984c8090e8b67b0add574fac/foss.xml 
+-->
+
+<manifest>
+  <remote name="gitlab" fetch="https://gitlab.com/" />
+  <project path="packages/apps/F-DroidPrivilegedExtension"
+           name="fdroid/privileged-extension.git" remote="gitlab"
+           revision="master" />
+
+  <remote name="ryugyong" fetch="https://github.com/ryugyong/" />
+  <project path="vendor/foss" name="vendor_foss"
+	   remote="ryugyong" revision="master" />
+</manifest>
